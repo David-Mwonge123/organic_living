@@ -24,3 +24,10 @@ body{
     z-index: 10;
     border-bottom: 2px solid var(--main);
 }
+.logo{
+    font-weight: 800;
+    font-size: 1.4rem;
+}
+.logo span{
+    color: var(--main);
+}
