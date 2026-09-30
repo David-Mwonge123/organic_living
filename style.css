@@ -115,5 +115,7 @@ body {
     border-bottom: 1px dashed #ddd;
 }
 .card-images{
-    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.8rem;
 }
