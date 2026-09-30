@@ -59,4 +59,12 @@ The website is structured into 4 main sections, that are linked from the navbar:
    -git add .
    -git commit -m "Add changes"
    -git push origin main
-   
+
+### Desktop Responsive
+![Desktop View](images/screenshot.png)
+### Mobile Responsive
+![Mobile View](images/mobile.png)
+
+### Author
+David Mwonge
+Student-Zindua School-Software Engineering
