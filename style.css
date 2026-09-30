@@ -10,3 +10,17 @@
 body{
     font-family:'Outfit' , sans-serif;background: var(--bg);color: var(--dark);line-height: 1.6;
 }
+
+/* FLEX - NAV */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem 5%;
+    background: #ffffffcc;
+    backdrop-filter: blur(10px);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    border-bottom: 2px solid var(--main);
+}
