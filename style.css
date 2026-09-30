@@ -31,3 +31,11 @@ body{
 .logo span{
     color: var(--main);
 }
+.nav-links-wrap{
+    display: flex;gap: 1.5rem;
+}
+.nav-links-wrap a{
+       text-decoration: none;
+       color: var(--dark);
+       font-weight: 600;
+}
