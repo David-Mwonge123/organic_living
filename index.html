@@ -11,7 +11,7 @@
     />
   </head>
   <body>
-    <nav class="navbar">
+    <nav class="navbar" aria-label="Main navigation">
       <div class="logo">ORGANIC<span>LIVING</span></div>
       <div class="nav-links-wrap">
         <a href="#Home">Home</a>| <a href="#Menu">Our Menu</a>|
@@ -34,8 +34,8 @@
         </p>
       </div>
       <div class="hero-images">
-        <img src="images/organic_foods.jpg" alt="Organic" width="300px" />
-        <img src="images/organic_plate.jpg" alt="Organic" width="300px" />
+        <img src="images/organic_foods.jpg" alt="Fresh Organic vegetables on a wooden table" width="300px" />
+        <img src="images/organic_plate.jpg" alt="Organic foods on a plate" width="300px" />
       </div>
     </section>
     <hr />
@@ -55,12 +55,12 @@
         <div class="card-images">
           <img
             src="images/vegan_samosas.jpg"
-            alt="Vegan Samosas"
+            alt="Golden brown vegan samosas served on a white plate"
             width="200px"
           />
           <img
             src="images/ossobuco_soup.jpg"
-            alt="Ossobuco"
+            alt="Nicely cooked ossobuco drowned in thick vegetable soup"
             width="200px"
             height="180px"
           />
@@ -77,8 +77,8 @@
           <li><span>Spaghetti & Meatballs</span> <b>750 Ksh</b></li>
         </ul>
         <div class="card-images">
-          <img src="images/potato_salad.jpg" alt="Potato salad" width="200px" />
-          <img src="images/green_salad.jpg" alt="Caesar salad" width="200px" />
+          <img src="images/potato_salad.jpg" alt="Fresh bowl of crispy Potato salad" width="200px" />
+          <img src="images/green_salad.jpg" alt="Colourful plate of Caesar salad" width="200px" />
         </div>
       </div>
 
@@ -92,8 +92,8 @@
           <li><span>African masala tea</span> <b>250 Ksh</b></li>
         </ul>
         <div class="card-images">
-          <img src="images/hibiscus_tea.jpg" alt="Hibiscus tea" width="250px" />
-          <img src="images/mint_dawa.jpg" alt="Mint dawa" width="200px" />
+          <img src="images/hibiscus_tea.jpg" alt="Steamy Hot Hibiscus tea in a mug" width="250px" />
+          <img src="images/mint_dawa.jpg" alt="Hot Mint dawa served in a mug" width="200px" />
         </div>
       </div>
     </section>
@@ -123,20 +123,20 @@
 
     <section id="Contact">
       <h2>CONTACT US:</h2>
-      <form action="">
+      <form action="" aria-label="Contact form">
         <fieldset>
           <legend>Personal Information</legend>
           <div class="form-group">
             <label for="name">Name:</label>
-            <input type="text" name="name" id="name" required />
+            <input type="text" name="name" id="name" required aria-required="true" aria-label="Your full name" />
           </div>
           <div class="form-group">
             <label for="email">Email:</label>
-            <input type="email" name="email" id="email" required />
+            <input type="email" name="email" id="email" required aria-required="true" aria-label="Your email address" />
           </div>
           <div class="form-group">
             <label for="phone">Phone number:</label>
-            <input type="tel" name="phone" id="phone" required />
+            <input type="tel" name="phone" id="phone" required aria-required="true" aria-label="Your phone number" />
           </div>
         </fieldset>
 
@@ -161,9 +161,9 @@
 
       <p>
         Follow us on:
-        <a href="#"><i class="fa-brands fa-square-facebook"></i></a>/
-        <a href="#"><i class="fa-brands fa-square-instagram"></i></a>/
-        <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+        <a href="#" aria-label="visit our facebook page"><i class="fa-brands fa-square-facebook"></i></a>/
+        <a href="#" aria-label="visit our instagram page"><i class="fa-brands fa-square-instagram"></i></a>/
+        <a href="#" aria-label="visit our tiktok page"><i class="fa-brands fa-tiktok"></i></a>
       </p>
 
       <p>&copy; 2026 Organic Living Restaurant. All rights reserved</p>
