@@ -4,3 +4,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+:root{
+    --main:rgb(148,231,148);--dark:#2d4a2d;--bg:#fcfaf6;--white:#fff
+}
+body{
+    font-family:'Outfit' , sans-serif;background: var(--bg);color: var(--dark);line-height: 1.6;
+}
