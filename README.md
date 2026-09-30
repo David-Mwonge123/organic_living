@@ -26,3 +26,15 @@ The website is structured into 4 main sections, that are linked from the navbar:
 - HTML - Semantic tags: 'nav', 'section', 'footer', 'form', 'fieldset', etc.
 - CSS - Grid, Flexbox, Media Queries, CSS variables, Clamp()
 
+### How to run locally on your computer
+1. **Clone the repo** - 
+   '''bash
+   git clone https://github.com/David-Mwonge123/organic_living.git
+2. **Go into the project folder**
+   cd organic_living
+3. Open in VS Code
+   code .
+4. **Open with Live Server**
+   -Install Live Server extension in VS Code
+   -Right-click index.html>Open with live server
+   -Or just double-click index.html in file explorer
