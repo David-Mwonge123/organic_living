@@ -96,7 +96,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    border: 1px #eee;
+    border: 1px solid #eee;
 
 }
 .menu-card h3{
@@ -107,4 +107,13 @@ body {
 }
 .menu-card ul{
     list-style: none;
+}
+.menu-card li{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.6rem;
+    border-bottom: 1px dashed #ddd;
+}
+.card-images{
+    
 }
