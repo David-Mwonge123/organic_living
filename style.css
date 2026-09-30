@@ -131,3 +131,18 @@ body {
     flex-direction: column;
     gap: 1.5rem;
 }
+#About{
+    background: var(--main);
+}
+.hours{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.hours li{
+   background: var(--white);
+   padding: 0.7rem 1.2rem;
+   border-radius: 100px;
+   font-weight: 600;
+}
