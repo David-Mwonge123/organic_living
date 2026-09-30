@@ -20,4 +20,9 @@ The website is structured into 4 main sections, that are linked from the navbar:
 - Accessible form with `required` attributes and semantic `<fieldset>` and `<legend>`
 - Fully responsive from 320px phones to 4K desktops - no horizontal scroll
 - Color Psychology: Main green `rgb(148,231,148)` = freshness, health, nature; Dark green `#2d4a2d` = trust, earth; Cream `#fcfaf6` = organic paper / clean plate
-- Pure HTML & CSS only
+- Pure HTML & CSS only.
+
+## Technologies Used
+- HTML - Semantic tags: 'nav', 'section', 'footer', 'form', 'fieldset', etc.
+- CSS - Grid, Flexbox, Media Queries, CSS variables, Clamp()
+
