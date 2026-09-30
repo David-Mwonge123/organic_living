@@ -38,3 +38,25 @@ The website is structured into 4 main sections, that are linked from the navbar:
    -Install Live Server extension in VS Code
    -Right-click index.html>Open with live server
    -Or just double-click index.html in file explorer
+
+### How to Deploy to Github pages
+**First time Setup**
+1. Create repo on github named 'organic_living'
+2. In your project folder terminal:
+   git init
+   git add .
+   git commit -m "Initial commit - Organic Living Restaurant
+   git branch -M main
+   git remote add origin https://github.com/David-Mwonge123/organic_living.git
+   git push -u origin main
+3. Go to github.com > your repo > settings > pages
+4. Under build and deployment:
+   -Source: Deploy from a branch
+   -Branch: Main/root
+   -Click Save
+5. Wait 1-2 minutes ,refresh, and your link will appear on the top of your page.
+**To Update Changes:**
+   -git add .
+   -git commit -m "Add changes"
+   -git push origin main
+   
