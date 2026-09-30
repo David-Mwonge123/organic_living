@@ -41,13 +41,11 @@
       <div class="menu-card">
         <h3>Appetizers</h3>
         <ul type="square">
-          <li><span>Vegan Samosas(pair)</span> ... <b>@250Ksh</b></li>
-          <li>
-            <span>Vegetable mini Springrolls(pair)</span> ... <b>@200Ksh</b>
-          </li>
-          <li><span>Ossobuco soup</span> ... <b>300Ksh</b></li>
-          <li><span>Cream of Mushroom soup</span> ... <b>@400Ksh</b></li>
-          <li><span>Chicken Tender bites</span> ... <b>400Ksh</b></li>
+          <li><span>Vegan Samosas(pair)</span> <b>@250Ksh</b></li>
+          <li><span>Vegetable mini Springrolls(pair)</span> <b>@200Ksh</b></li>
+          <li><span>Ossobuco soup</span> <b>300Ksh</b></li>
+          <li><span>Cream of Mushroom soup</span> <b>@400Ksh</b></li>
+          <li><span>Chicken Tender bites</span> <b>400Ksh</b></li>
         </ul>
         <div class="card-images">
           <img
@@ -74,12 +72,11 @@
           <li><span>Spaghetti & Meatballs</span> <b>750 Ksh</b></li>
         </ul>
         <div class="card-images">
-          <img src="images/potato_salad.jpg" alt="Potato salad" />
-          <img src="images/green_salad.jpg" alt="Caesar salad" />
+          <img src="images/potato_salad.jpg" alt="Potato salad" width="200px" />
+          <img src="images/green_salad.jpg" alt="Caesar salad" width="200px" />
         </div>
       </div>
 
-      
       <div class="menu-card">
         <h3>Drinks</h3>
         <ul>
@@ -90,13 +87,11 @@
           <li><span>African masala tea</span> <b>250 Ksh</b></li>
         </ul>
         <div class="card-images">
-          <img src="images/hibiscus_tea.jpg" alt="Hibiscus tea" />
-          <img src="images/mint_dawa.jpg" alt="Mint dawa" />
+          <img src="images/hibiscus_tea.jpg" alt="Hibiscus tea" width="250px" />
+          <img src="images/mint_dawa.jpg" alt="Mint dawa" width="200px" />
         </div>
       </div>
     </section>
-
-    
 
     <!-- 3. About -->
     <section id="About">
@@ -125,44 +120,44 @@
       <h2>CONTACT US:</h2>
       <form action="">
         <fieldset>
-          <legend><strong>Personal Information</strong></legend>
-          <label for="name">Name:</label>
-          <input type="text" name="name" id="name" required />
-          <label for="email">Email:</label>
-          <input type="email" name="email" id="email" required />
-          <label for="phone">Phone number:</label>
-          <input type="tel" name="phone" id="phone" required />
+          <legend>Personal Information</legend>
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required />
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone number:</label>
+            <input type="tel" name="phone" id="phone" required />
+          </div>
         </fieldset>
+
         <fieldset>
-          <fieldset>
-            <label for="Taste">Have you tasted our dishes yet?:</label>
+          <label>Have you tasted our dishes yet?:</label>
+          <div class="radio-group">
             <input type="radio" name="Taste" id="Yes" value="Yes" />
             <label for="Yes">Yes</label>
             <input type="radio" name="Taste" id="No" value="No" />
             <label for="No">No</label>
-          </fieldset>
-          <br /><br />
+          </div>
           <label for="message">How can we help you?:</label>
-          <textarea
-            name="message"
-            id="message"
-            cols="30"
-            rows="10"
-            required
-          ></textarea>
+          <textarea name="message" id="message" rows="6" required></textarea>
         </fieldset>
-        <br />
-        <input type="submit" value="SEND" />
+
+        <input type="submit" value="SEND MESSAGE" />
       </form>
     </section>
 
-    <hr />
-
     <footer>
       <h3>Organic Living Restaurant</h3>
-      <p>Follow us on:</p>
-      <a href="#">Facebook</a>/ <a href="#">Instagram</a>/
-      <a href="#">TikTok</a>
+
+      <p>
+        Follow us on: <a href="#">Facebook</a>/ <a href="#">Instagram</a>/
+        <a href="#">TikTok</a>
+      </p>
 
       <p>&copy; 2026 Organic Living Restaurant. All rights reserved</p>
     </footer>
