@@ -173,3 +173,12 @@ input[type="submit"]{
     padding: 1rem;
     border-radius: 100px;
 }
+footer{
+    background: var(--dark);
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
