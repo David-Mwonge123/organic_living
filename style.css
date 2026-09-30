@@ -1,3 +1,13 @@
 *{
     margin: 0; padding: 0;
 }
+body{
+    background-color: rgb(148, 231, 148);
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    
+}
