@@ -146,3 +146,22 @@ body {
    border-radius: 100px;
    font-weight: 600;
 }
+form{
+    display: grid;
+    gap: 1.2rem;
+    max-width: 700px;
+}
+fieldset{
+    border: 2px solid var(--main);
+    padding: 1.5rem;
+    border-radius: 2rem;
+    display: grid;
+    gap: 1rem;
+}
+input,textarea{
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    width: 100%;
+
+}
